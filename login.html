@@ -10,8 +10,27 @@
     </div>
     <div id="loginOuterContainer">
         <div id="loginInnerContainer">
-            
+                <p id="loginHeader">Login</p>
+                <br />
+                <p class="inputLabel">Username: </p>
+                <input id="loginInput" class="inputField" type="text"/>
+                <br />
+                <p class="inputLabel">Password: </p>
+                <input id="passwordInput" class="inputField" type="text"/>
+                <br />
+                <button type="button" id="loginButton">Login</button>
+                <br /> <br />
+                <span id="redirectLine">New to Quizrt? You can <a href="./register.html" id="registerRedirect">sign up here</a>.</span>
         </div>
     </div>
+    
+    <script>
+        var myButton = document.getElementById("loginButton");
+        myButton.addEventListener('click', authLogin, false)
+        
+        function authLogin(){
+            // authenticate login 
+        }
+    </script>
 </body>
 </html>

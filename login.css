@@ -21,6 +21,8 @@ h1, h2, h3, h4, h5, h6, p{
 
 #logo{
     color: #F0FFFF;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-variant: small-caps;
     font-size: 70px;
     padding: 25px 0px 25px 150px;
 }
@@ -28,14 +30,47 @@ h1, h2, h3, h4, h5, h6, p{
 #loginOuterContainer{
     width: 100%;
     height: 80%;
-    background-color: #8A2BE2;
-    position: relative;
 }
 
 #loginInnerContainer{
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: auto;
     margin: 0 auto;
-    background-color: #6495ED;
-    position: relative;
+    padding-top: 100px;
+}
+
+#loginHeader{
+    color: #00BFFF;
+    font-size: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.inputLabel{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.inputField{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#loginButton{
+    float: right;
+    background-color: #00BFFF;
+    color: #F0FFFF;
+    border: none;
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#redirectLine{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+#registerRedirect, #registerRedirect:visited{
+    text-decoration: none;
+    color: #00BFFF;
 }
