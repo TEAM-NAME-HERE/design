@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="register.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="register.css">
 </head>
 <body>
-    <h1>Register</h1>
+    <div id="background">
+        <div id="gap"></div>
+        <div id="signupBox">
+            <p id="boxHeader">Sign up for Quizrt, it'll only take a moment...</p>
+            <br />
+            <div id="inputBox">
+                <fieldset>
+                    <label for="firstName">First Name:</label><input type="text" name="firstName" size="20" class="userInput">
+                    <label for="lastName">Lase Name:</label><input type="text" name="lastName" size="20" class="userInput">
+                    <label for="email">Email Address:</label><input type="text" name="email" size="20" class="userInput">
+                    <label for="password">Password:</label><input type="text" name="password" size="20" class="userInput">
+                    <label for="confirmPassword">Confirm Password:</label><input type="text" name="confirmPassword" size="20" class="userInput">
+                </fieldset>
+                <button type="button" id="signupButton">Sign up</button>
+            </div>
+            <br />
+            <span id="redirectLine">Already have an account with us? Head to our <a href="./login.html" id="loginRedirect">login page</a>.</span>
+            <br />
+            <br />
+        </div>
+    </div>
 </body>
 </html>
