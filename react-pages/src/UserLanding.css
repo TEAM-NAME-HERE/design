@@ -1,0 +1,145 @@
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    height: 100%;
+}
+
+#allContainer{
+  height: 100%;
+  width: 100%;
+}
+
+#toolBar{
+  height: 10%;
+  width: 100%;
+  background-color: hsl(140, 40%, 30%);
+}
+
+#settingsButton{
+  font-size: 16px;
+  background-color: hsl(140, 40%, 30%);
+  margin-left: 90%;
+  padding-top: 20px;
+  border: none;
+  text-decoration: underline;
+}
+
+#logoutButton{
+  font-size: 16px;
+  background-color: hsl(140, 40%, 30%);
+  padding-left: 10px;
+  border: none;
+  text-decoration: underline;
+}
+
+#welcomeContainer{
+  height: 40%;
+  width: 100%;
+  background-color: hsl(140, 60%, 50%);
+  position: relative;
+}
+
+#welcomeTag{
+  height: auto;
+  font-size: 60px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+#buttonBar{
+  position: absolute;
+  bottom: 0;
+  height: 20%;
+  width: 100%;
+  background-color: hsl(140, 60%, 50%);
+}
+
+.borderHelper{
+  float: left;
+  height: 100%;
+  width: 40%;
+  border-bottom: 3px solid white;
+}
+
+#createButton{
+  float: right;
+  height: 100%;
+  width: 50%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: hsl(140, 60%, 50%);
+  border: 3px solid white;
+  border-bottom: 1px;
+  border-top: none;
+}
+
+#dummyContainer{
+  float: left;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  background-color: hsl(140, 80%, 70%);
+  border-top: 3px solid white;
+}
+
+#dummyText{
+  height: 10%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 10px;
+}
+
+#joinButton{
+  float: left;
+  height: 100%;
+  width: 50%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: hsl(140, 60%, 50%);
+  border: 3px solid white;
+  border-bottom: 1px;
+  border-top: none;
+}
+
+#myQuizContainer{
+  height: 50%;
+  width: 100%;
+  background-color: hsl(140, 80%, 70%);
+  padding-top: 20px;
+}
+
+.quizContainer{
+  background-color:  #B0C4DE;
+  height: auto;
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+.quizTitle{
+  height: auto;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.startButton{
+  margin-left: 40%;
+  margin-bottom: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: hsl(140, 40%, 30%);
+  border: none;
+}
+
+.editButton{
+  margin-left: 10%;
+  margin-bottom: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: hsl(140, 40%, 30%);
+  border: none;
+}
