@@ -1,0 +1,165 @@
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    height: 100%;
+}
+
+#banner{
+	width: 100%;
+	height: 70px;
+	background-color: #8A2BE2;
+	position: fixed;
+}
+
+#logo{
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-variant: small-caps;
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+#cancelButton{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: white;
+	color: #8A2BE2;
+	border: 1px solid black;
+	margin-left: 50%;
+}
+
+#saveButton{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: white;
+	color: #8A2BE2;
+	border: 1px solid black;
+	margin-left: 3%;
+}
+
+#miniDisplay{
+	width: 15%;
+	height: auto;
+	background-color: #D3D3D3;
+	position: fixed;
+	right: 0;
+	margin-top: 70px;
+}
+
+.dragQuestion{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: #696969;
+}
+
+.dragQuestionTitle{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#questionsContainer{
+	float: left;
+	height: auto;
+	width: 85%;
+	padding-top: 100px;
+}
+
+#quizTitle{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 70px;
+	margin-left: 320px;
+	margin-bottom: 75px;
+}
+
+#editTitle{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	background-color: white;
+	margin-left: 20px;
+	border: none;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.questionBox{
+	height: auto;
+	width: 40%;
+	background-color: #A9A9A9;
+	padding: 5px 0px 10px 40px;
+	margin-top: 20px;
+	margin-left: 420px;
+	border: 1px solid black;
+}
+
+.questionTitle{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.deleteButton{
+	background-color: #696969;
+	border: none;
+	border-radius: 2px;
+	float: right;
+	margin-right: 5px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.answerLabel{
+	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: underline;
+	width: 40%;
+}
+
+.correctLabel{
+	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: underline;
+}
+
+.answer{
+	height: auto;
+	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 40%;
+}
+
+.deleteAnswer{
+	background-color: #696969;
+	border: none;
+	border-radius: 2px;
+	font-size: 8px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 20%;
+}
+
+.addAnswerButton{
+	background-color: #696969;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: none;
+	margin-left: 60%;
+}
+
+#addQuestionButton{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 420px;
+	margin-top: 15px;
+	margin-bottom: 100px;
+	background-color: #696969;
+	border: 1px solid black;
+}
