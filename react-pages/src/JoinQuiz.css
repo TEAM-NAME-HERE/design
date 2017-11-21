@@ -1,0 +1,26 @@
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    height: 100%;
+}
+
+#joinToolBar{
+	height: 10%;
+	width: 100%;
+	background-color: blue;
+}
+
+#mainContainer{
+	height: 90%;
+	width: 100%;
+	background-color: red;
+}
+
+.test{
+	height: auto;
+}

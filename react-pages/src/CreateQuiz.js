@@ -5,7 +5,7 @@ class CreateQuiz extends Component {
   render() {
     return (
       <div id="allContainer">
-        <div id="banner">
+        <div id="createToolBar">
           <h3 id="logo">Quizrt</h3>
           <button type="button" id="cancelButton">Cancel</button>
           <button type="button" id="saveButton">Save</button>
