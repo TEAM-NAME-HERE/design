@@ -40,17 +40,17 @@ class UserLanding extends Component {
           <div class="quizContainer">
             <p class="quizTitle">Quiz 1</p>
             <button type="button" id="startButton1" class="startButton" onClick={this.redirectPINDisplay}>Start Quiz</button>
-            <button type="button" id="editButton1" class="editButton">Edit Quiz</button>
+            <button type="button" id="editButton1" class="editButton" onClick={this.redirectCreate}>Edit Quiz</button>
           </div>
           <div class="quizContainer">
             <p class="quizTitle">Quiz 2</p>
             <button type="button" id="startButton2" class="startButton" onClick={this.redirectPINDisplay}>Start Quiz</button>
-            <button type="button" id="editButton2" class="editButton">Edit Quiz</button>
+            <button type="button" id="editButton2" class="editButton" onClick={this.redirectCreate}>Edit Quiz</button>
           </div>
           <div class="quizContainer">
             <p class="quizTitle">Quiz 3</p>
             <button type="button" id="startButton3" class="startButton" onClick={this.redirectPINDisplay}>Start Quiz</button>
-            <button type="button" id="editButton3" class="editButton">Edit Quiz</button>
+            <button type="button" id="editButton3" class="editButton" onClick={this.redirectCreate}>Edit Quiz</button>
           </div>
         </div>
       </div>

@@ -17,20 +17,80 @@ h1, h2, h3, h4, h5, h6, p{
 #pinToolBar{
 	height: 10%;
 	width: 100%;
-	background-color: #00BFFF;;
+	background-color: rgb(240,230,140);
 }
 
 #pinLogo{
 	display: inline-block;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-size: 56px;
+	margin-left: 5%;
 }
 
 #pinQuizTitle{
 	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	margin-left: 3%;
+}
+
+#pinToHome{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	margin-left: 60%;
+	background-color: #D3D3D3;
+	border: 2px solid black;
+}
+
+#pinLogout{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	margin-left: 3%;
+	background-color: #D3D3D3;
+	border: 2px solid black;
 }
 
 #pinUsersContainer{
 	height: 90%;
 	width: 100%;
-	background-color: green;
+	text-align: center;
+	background-color: rgb(240,230,140);
+	background-color: rgba(240,230,140, 0.3);
 }
 
+#pinGap{
+	height: 10%;
+	width: 100%;
+}
+
+#pinLabel{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+}
+
+#quizPIN{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 72px;
+	margin-top: 24px;
+	font-weight: bold;
+	color: #5F9EA0;
+}
+
+#testLabel{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 20px;
+}
+
+#nameInput{
+	display: inline-block;
+	height: auto;
+}
+
+#addNameButton{
+	display: inline-block;
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

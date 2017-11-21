@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import './CreateQuiz.css';
 
 class CreateQuiz extends Component {
+  cancelQuiz = () =>{
+    this.props.history.push("/");
+  }
+
   render() {
     return (
       <div id="allContainer">
         <div id="createToolBar">
           <h3 id="logo">Quizrt</h3>
-          <button type="button" id="cancelButton">Cancel</button>
+          <button type="button" id="cancelButton" onClick={this.cancelQuiz}>Cancel</button>
           <button type="button" id="saveButton">Save</button>
         </div>
         <div id="miniDisplay">
