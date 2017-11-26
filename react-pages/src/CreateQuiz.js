@@ -3,14 +3,14 @@ import './CreateQuiz.css';
 
 class CreateQuiz extends Component {
   cancelQuiz = () =>{
-    this.props.history.push("/");
+    this.props.history.push("/UserLanding");
   }
 
   render() {
     return (
       <div id="allContainer">
         <div id="createToolBar">
-          <h3 id="logo">Quizrt</h3>
+          <h3 id="createLogo">Quizrt</h3>
           <button type="button" id="cancelButton" onClick={this.cancelQuiz}>Cancel</button>
           <button type="button" id="saveButton">Save</button>
         </div>

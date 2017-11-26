@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, p{
 	position: fixed;
 }
 
-#logo{
+#createLogo{
 	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
     font-variant: small-caps;
     display: inline-block;

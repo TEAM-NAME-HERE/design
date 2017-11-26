@@ -11,6 +11,10 @@ class PINDisplay extends Component{
 	}
 
 	redirectHome = () =>{
+		this.props.history.push("/UserLanding");
+	}
+
+	logout = ()=>{
 		this.props.history.push("/");
 	}
 
@@ -46,7 +50,7 @@ class PINDisplay extends Component{
 					<p id="pinLogo">Quizrt</p>
 					<p id="pinQuizTitle">Quiz 1 title will go here, even if its super duper extra long john silvers</p>
 					<button id="pinToHome" onClick={this.redirectHome}>Home</button>
-					<button id="pinLogout">Logout</button>
+					<button id="pinLogout" onClick={this.logout}>Logout</button>
 				</div>
 				<div id="pinUsersContainer">
 					<div id="pinGap"></div>

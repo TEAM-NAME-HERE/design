@@ -15,12 +15,16 @@ class UserLanding extends Component {
     this.props.history.push("/PINDisplay");
   }
 
+  logout = ()=>{
+    this.props.history.push("/");
+  }
+
   render() {
     return (
       <div id="allContainer">
         <div id="landingToolBar">
           <button type="button" id="settingsButton">Settings</button>
-          <button type="button" id="logoutButton">Logout</button>
+          <button type="button" id="logoutButton" onClick={this.logout}>Logout</button>
         </div>
         <div id="welcomeContainer">
             <p id="welcomeTag">Welcome, User</p>
