@@ -7,6 +7,10 @@ class Login extends Component{
 		this.props.history.push("/UserLanding");
 	}
 
+	guestLoginRedirect = () =>{
+		this.props.history.push("/GuestLogin");
+	}
+
 	signupRedirect = () =>{
 		this.props.history.push("/Signup");
 	}
@@ -15,9 +19,10 @@ class Login extends Component{
 	render(){
 		return(
 			<div id="allContainer">
-				<div id="banner">
-        			<h3 id="logo">Quizrt</h3>
+				<div id="loginBanner">
+        			<h3 id="loginLogo">Quizrt</h3>
     			</div>
+    			<div id="loginGap"></div>
     			<div id="loginOuterContainer">
         			<div id="loginInnerContainer">
                 		<p id="loginHeader">Login</p>
@@ -37,8 +42,8 @@ class Login extends Component{
                 		<button id="signupButtonRedirect" onClick={this.signupRedirect}> sign up here</button>
         			</div>
     			</div>
-    			<div id="guestContainer">
-            		<button type="button" id="guestButton">Sign In As Guest</button>
+    			<div id="loginGuestContainer">
+            		<button type="button" id="guestButton" onClick={this.guestLoginRedirect}>Sign In As Guest</button>
     			</div>
 			</div>
 		);

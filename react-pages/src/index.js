@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './index.css';
 
+import Login from './Login';
+import Signup from './Signup';
 import UserLanding from './UserLanding';
 import CreateQuiz from './CreateQuiz';
 import JoinQuiz from './JoinQuiz';
+import GuestJoinQuiz from './GuestJoinQuiz';
 import PINDisplay from './PINDisplay';
-import Login from './Login';
-import Signup from './Signup';
 
 ReactDOM.render(
 	<BrowserRouter>
@@ -19,6 +20,7 @@ ReactDOM.render(
 			<Route path='/UserLanding' component={UserLanding}/>
 			<Route path='/CreateQuiz' component={CreateQuiz}/>
 			<Route path='/JoinQuiz' component={JoinQuiz}/>
+			<Route path='/GuestLogin' component={GuestJoinQuiz}/>
 			<Route path='/PINDisplay' component={PINDisplay}/>
 		</div>
 	</BrowserRouter>,

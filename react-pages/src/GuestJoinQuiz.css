@@ -25,9 +25,10 @@ h1, h2, h3, h4, h5, h6, p{
 	padding: 10px 0px 10px 75px;
 }
 
-#joinToHome{
+#guestJoinToHome{
 	border: 1px solid black;
 	border-radius: 2px;
+	padding: 3px;
 	color: #1E90FF;
 	background-color: white;
 	margin-left: 65%;
@@ -35,34 +36,38 @@ h1, h2, h3, h4, h5, h6, p{
 	font-size: 18px;
 }
 
-#joinLogout{
-	border: 1px solid black;
-	border-radius: 2px;
-	color: #1E90FF;
-	background-color: white;
-	margin-left: 3%;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-}
-
-#joinMainContainer{
+#guestJoinMainContainer{
 	height: 70%;
 	width: 100%;
 	text-align: center;
 }
 
-#enterPINHeader{
+#guestEnterPINHeader{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 48px;
 	color: #1E90FF;
 	height: auto;
-	margin-top: 8%;
+	margin-top: 3%;
 }
 
-#PINInput{
+#guestPINInput{
 	width: 20%;
 	font-size: 32px;
+	margin-top: 1%;
+}
+
+#guestNicknameHeader{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	color: #1E90FF;
+	height: auto;
 	margin-top: 2%;
+}
+
+#guestNameInput{
+	width: 20%;
+	font-size: 32px;
+	margin-top: 1%;
 }
 
 #enterQuiz{
@@ -73,5 +78,5 @@ h1, h2, h3, h4, h5, h6, p{
 	border: none;
 	border-radius: 2px;
 	padding: 10px;
-	margin-top: 3%;
+	margin-top: 2%;
 }

@@ -26,13 +26,11 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 #signupBox{
-    background-color: white;
+	background-color: hsla(350, 80%, 97%, 1);
     margin: 0 auto;
     height: auto;
     width: 45%;
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
+    border: 2px solid black;
 }
 
 #boxHeader{
@@ -55,6 +53,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .userInput{
 	width: 60%;
+	border: 1px solid black;
 }
 
 #signupButton{
@@ -79,6 +78,6 @@ h1, h2, h3, h4, h5, h6, p{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	border: none;
-	background-color: white;
+	background-color: hsla(350, 80%, 97%, 1);
 	color: #00BFFF;
 }

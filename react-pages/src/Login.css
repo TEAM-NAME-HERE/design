@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p{
 	width: 100%;
 }
 
-#banner{
+#loginBanner{
     background-color: #00BFFF;
     top: 0px;
     left: 0px;
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p{
     height: 20%;
 }
 
-#logo{
+#loginLogo{
     color: #F0FFFF;
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
     font-variant: small-caps;
@@ -30,11 +30,15 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 25px 0px 25px 150px;
 }
 
+#loginGap{
+	height: 10%;
+	width: 100%;
+}
+
 #loginOuterContainer{
     width: 45%;
-    height: 80%;
+    height: 70%;
     float: left;
-    margin-top: 5%;
 }
 
 #loginInnerContainer{
@@ -83,12 +87,11 @@ h1, h2, h3, h4, h5, h6, p{
 	font-size: 14px;
 }
 
-#guestContainer{
+#loginGuestContainer{
     width: 45%;
-    height: 80%;
+    height: 70%;
     float: left;
     text-align: center;
-    margin-top: 5%;
 }
 
 #guestButton{

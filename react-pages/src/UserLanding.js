@@ -27,7 +27,7 @@ class UserLanding extends Component {
           <button type="button" id="logoutButton" onClick={this.logout}>Logout</button>
         </div>
         <div id="welcomeContainer">
-            <p id="welcomeTag">Welcome, User</p>
+            <p id="welcomeTag">Welcome to Quizrt, User</p>
             <div id="buttonBar">
               <div class="borderHelper">
                 <button type="button" id="createButton" onClick={this.redirectCreate}>Create a Quiz</button>
