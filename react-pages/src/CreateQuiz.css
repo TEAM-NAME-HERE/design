@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6, p{
 	position: fixed;
 	right: 0;
 	margin-top: 70px;
+	opacity: 0.5;
 }
 
 .dragQuestion{
@@ -71,8 +72,9 @@ h1, h2, h3, h4, h5, h6, p{
 #questionsContainer{
 	float: left;
 	height: auto;
-	width: 85%;
+	width: 100%;
 	padding-top: 100px;
+	background-color: rgba(138, 43, 226, 0.3);
 }
 
 #quizTitle{
@@ -85,7 +87,7 @@ h1, h2, h3, h4, h5, h6, p{
 #editTitle{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
-	background-color: white;
+	background-color: rgba(138, 43, 226, 0.5);
 	margin-left: 20px;
 	border: none;
 	border-bottom: 1px solid black;
@@ -95,7 +97,7 @@ h1, h2, h3, h4, h5, h6, p{
 .questionBox{
 	height: auto;
 	width: 40%;
-	background-color: #A9A9A9;
+	background-color: white;
 	padding: 5px 0px 10px 40px;
 	margin-top: 20px;
 	margin-left: 420px;
@@ -103,11 +105,19 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .questionTitle{
-	height: auto;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	margin-left: 15px;
-	margin-top: 5px;
+	font-size: 24px;
+	margin: 10px 0px 15px 25px;
+	display: inline-block;
+}
+
+.editQuestion{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #696969;
+	margin-left: 5%;
+	border: none;
+	padding: 3px;
 }
 
 .deleteButton{
@@ -119,11 +129,33 @@ h1, h2, h3, h4, h5, h6, p{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.durationLabel{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.dropDownHolder{
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.secondsTag{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: inline-block;
+	margin-left: 3px;
+	margin-bottom: 10px;
+}
+
 .answerLabel{
 	display: inline-block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: underline;
 	width: 40%;
+	margin-bottom: 10px;
 }
 
 .correctLabel{
