@@ -10,6 +10,9 @@ import CreateQuiz from './CreateQuiz';
 import JoinQuiz from './JoinQuiz';
 import GuestJoinQuiz from './GuestJoinQuiz';
 import PINDisplay from './PINDisplay';
+import TeacherDisplayQuestion from './TeacherDisplayQuestion';
+import StudentDisplayQuestion from './StudentDisplayQuestion';
+import DisplayResults from './DisplayResults';
 
 ReactDOM.render(
 	<BrowserRouter>
@@ -22,6 +25,9 @@ ReactDOM.render(
 			<Route path='/JoinQuiz' component={JoinQuiz}/>
 			<Route path='/GuestLogin' component={GuestJoinQuiz}/>
 			<Route path='/PINDisplay' component={PINDisplay}/>
+			<Route path='/TeacherDisplayQuestion' component={TeacherDisplayQuestion}/>
+			<Route path='/StudentDisplayQuestion' component={StudentDisplayQuestion}/>
+			<Route path='/DisplayResults' component={DisplayResults}/>
 		</div>
 	</BrowserRouter>,
 	document.getElementById('root'));

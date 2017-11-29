@@ -18,6 +18,10 @@ class PINDisplay extends Component{
 		this.props.history.push("/");
 	}
 
+	startQuiz = () =>{
+		this.props.history.push("/TeacherDisplayQuestion");
+	}
+
 	addName = () =>{
 		var elementCenter = document.getElementById("centerNameContainer");
 		var elementLeft = document.getElementById("leftNameContainer");
@@ -56,7 +60,7 @@ class PINDisplay extends Component{
 					<div id="pinGap"></div>
 					<p id="pinLabel">The PIN for this Quiz is...</p>
 					<p id="quizPIN">235689</p>
-					<button id="startQuizFinal">Start Quiz</button><br />
+					<button id="startQuizFinal" onClick={this.startQuiz}>Start Quiz</button><br />
 					<p id="testLabel">This is for testing: enter name</p>
 					<input id="nameInput" type="text" onChange={this.setName}/>		
 					<button id="addNameButton" onClick={this.addName}>Add Name</button><br />
