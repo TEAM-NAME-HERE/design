@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import Timer from './Timer.js'
 import "./TeacherDisplayQuestion.css";
 
 class TeacherDisplayQuestion extends Component{
@@ -27,27 +29,34 @@ class TeacherDisplayQuestion extends Component{
 					<button id="cancelAndReturn" onClick={this.redirectHome}>Cancel Quiz</button>
 					<button id="teacherLogout" onClick={this.logout}>Logout</button>
 				</div>
+
 				<div id="teacherMainContainer">
 					<div id="teacherQuestionContainer">
 						<p id="teacherQuestion">This is where the question will be displayed to the students taking the quiz</p>
 						<div id="timerAndNext">
-							<p id="timeRemaining">Time Reaming: 30</p>
+							<div id="timerContainer">
+								<Timer></Timer>
+							</div>
 							<button id="endQuestion" onClick={this.toResults}>End Question</button>
 						</div>
 					</div>
+
 					<div id="teacherAnswersContainer">
 						<div id="firstAnswer">
 							<p class="answerHeader">1</p>
 							<p class="answer">This will be the first answer to the question</p>
 						</div>
+
 						<div id="secondAnswer">
 							<p class="answerHeader">2</p>
 							<p class="answer">This will be the second answer to the question</p>
 						</div>
+
 						<div id="thirdAnswer">
 							<p class="answerHeader">3</p>
 							<p class="answer">This will be the third answer to the question</p>
 						</div>
+						
 						<div id="fourthAnswer">
 							<p class="answerHeader">4</p>
 							<p class="answer">This will the the fourth answer to the question</p>

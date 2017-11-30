@@ -22,6 +22,7 @@ class JoinQuiz extends Component{
 					<button id="joinToHome" onClick={this.redirectHome}>Home</button>
 					<button id="joinLogout" onClick={this.logout}>Logout</button>
 				</div>
+				
 				<div id="joinMainContainer">
 					<p id="enterPINHeader">Enter the PIN for the quiz you wish to join:</p>
 					<input type="text" id="PINInput"/><br />

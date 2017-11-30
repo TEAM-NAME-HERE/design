@@ -13,6 +13,7 @@ import PINDisplay from './PINDisplay';
 import TeacherDisplayQuestion from './TeacherDisplayQuestion';
 import StudentDisplayQuestion from './StudentDisplayQuestion';
 import DisplayResults from './DisplayResults';
+import Timer from './Timer';
 
 ReactDOM.render(
 	<BrowserRouter>
@@ -28,6 +29,7 @@ ReactDOM.render(
 			<Route path='/TeacherDisplayQuestion' component={TeacherDisplayQuestion}/>
 			<Route path='/StudentDisplayQuestion' component={StudentDisplayQuestion}/>
 			<Route path='/DisplayResults' component={DisplayResults}/>
+			<Route path='/Timer' component={Timer}/>
 		</div>
 	</BrowserRouter>,
 	document.getElementById('root'));

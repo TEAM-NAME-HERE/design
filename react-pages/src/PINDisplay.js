@@ -56,20 +56,23 @@ class PINDisplay extends Component{
 					<button id="pinToHome" onClick={this.redirectHome}>Home</button>
 					<button id="pinLogout" onClick={this.logout}>Logout</button>
 				</div>
+
 				<div id="pinUsersContainer">
 					<div id="pinGap"></div>
-					<p id="pinLabel">The PIN for this Quiz is...</p>
-					<p id="quizPIN">235689</p>
-					<button id="startQuizFinal" onClick={this.startQuiz}>Start Quiz</button><br />
-					<p id="testLabel">This is for testing: enter name</p>
-					<input id="nameInput" type="text" onChange={this.setName}/>		
-					<button id="addNameButton" onClick={this.addName}>Add Name</button><br />
-					<div id="leftNameContainer">
-						<p class="initDiv">1</p>
-					</div>
+						<p id="pinLabel">The PIN for this Quiz is...</p>
+						<p id="quizPIN">235689</p>
+						<button id="startQuizFinal" onClick={this.startQuiz}>Start Quiz</button><br />
+						<p id="testLabel">This is for testing: enter name</p>
+						<input id="nameInput" type="text" onChange={this.setName}/>		
+						<button id="addNameButton" onClick={this.addName}>Add Name</button><br />
+						<div id="leftNameContainer">
+							<p class="initDiv">1</p>
+						</div>
+
 					<div id="centerNameContainer">
 						<p class="initDiv">1</p>
 					</div>
+					
 					<div id="rightNameContainer">
 						<p class="initDiv">1</p>
 					</div>

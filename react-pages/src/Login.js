@@ -23,6 +23,7 @@ class Login extends Component{
         			<h3 id="loginLogo">Quizrt</h3>
     			</div>
     			<div id="loginGap"></div>
+
     			<div id="loginOuterContainer">
         			<div id="loginInnerContainer">
                 		<p id="loginHeader">Login</p>
@@ -42,6 +43,7 @@ class Login extends Component{
                 		<button id="signupButtonRedirect" onClick={this.signupRedirect}> sign up here</button>
         			</div>
     			</div>
+                
     			<div id="loginGuestContainer">
             		<button type="button" id="guestButton" onClick={this.guestLoginRedirect}>Sign In As Guest</button>
     			</div>
