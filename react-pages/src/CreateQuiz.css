@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, p{
 	text-decoration: underline;
 }
 
-.answer{
+.createAnswer{
 	height: auto;
 	display: inline-block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

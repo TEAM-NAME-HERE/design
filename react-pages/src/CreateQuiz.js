@@ -28,7 +28,7 @@ class CreateQuiz extends Component {
         <div id="createToolBar">
           <h3 id="createLogo">Quizrt</h3>
           <button type="button" id="cancelButton" onClick={this.cancelQuiz}>Cancel</button>
-          <button type="button" id="saveButton">Save</button>
+          <button type="button" id="saveButton" onClick={this.cancelQuiz}>Save</button>
         </div>
         <div id="miniDisplay">
           <div class="dragQuestion">
@@ -58,16 +58,16 @@ class CreateQuiz extends Component {
               <br />
               <p class="answerLabel">Answers:</p>
               <p class="correctLabel">Mark as correct:</p>
-              <p class="answer">Answer 1</p>
+              <p class="createAnswer">Answer 1</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 2</p>
+              <p class="createAnswer">Answer 2</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 3</p>
+              <p class="createAnswer">Answer 3</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 4</p>
+              <p class="createAnswer">Answer 4</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br /><br />
               <button type="button" class="addAnswerButton" id="addAnswerButton1">Add Answer</button>
@@ -83,16 +83,16 @@ class CreateQuiz extends Component {
               <p class="answerLabel">Answers:</p>
               <p class="correctLabel">Mark as correct:</p>
               <br /><br />
-              <p class="answer">Answer 1</p>
+              <p class="createAnswer">Answer 1</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 2</p>
+              <p class="createAnswer">Answer 2</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 3</p>
+              <p class="createAnswer">Answer 3</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 4</p>
+              <p class="createAnswer">Answer 4</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br /><br />
               <button type="button" class="addAnswerButton" id="addAnswerButton2">Add Answer</button>
@@ -108,16 +108,16 @@ class CreateQuiz extends Component {
               <p class="answerLabel">Answers:</p>
               <p class="correctLabel">Mark as correct:</p>
               <br /><br />
-              <p class="answer">Example of what a logner answer would look like</p>
+              <p class="createAnswer">Example of what a logner answer would look like</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 2</p>
+              <p class="createAnswer">Answer 2</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 3</p>
+              <p class="createAnswer">Answer 3</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 4</p>
+              <p class="createAnswer">Answer 4</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br /><br />
               <button type="button" class="addAnswerButton" id="addAnswerButton3">Add Answer</button>
@@ -133,16 +133,16 @@ class CreateQuiz extends Component {
               <p class="answerLabel">Answers:</p>
               <p class="correctLabel">Mark as correct:</p>
               <br /><br />
-              <p class="answer">Answer 1</p>
+              <p class="createAnswer">Answer 1</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 2</p>
+              <p class="createAnswer">Answer 2</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 3</p>
+              <p class="createAnswer">Answer 3</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br />
-              <p class="answer">Answer 4</p>
+              <p class="createAnswer">Answer 4</p>
               <input type="checkbox" class="check"/>
               <button type="button" class="deleteAnswer">X</button><br /><br />
               <button type="button" class="addAnswerButton" id="addAnswerButton4">Add Answer</button>
