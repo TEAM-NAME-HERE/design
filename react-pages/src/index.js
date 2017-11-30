@@ -23,7 +23,7 @@ ReactDOM.render(
 			<Route path='/UserLanding' component={UserLanding}/>
 			<Route path='/CreateQuiz' component={CreateQuiz}/>
 			<Route path='/JoinQuiz' component={JoinQuiz}/>
-			<Route path='/GuestLogin' component={GuestJoinQuiz}/>
+			<Route path='/GuestJoinQuiz' component={GuestJoinQuiz}/>
 			<Route path='/PINDisplay' component={PINDisplay}/>
 			<Route path='/TeacherDisplayQuestion' component={TeacherDisplayQuestion}/>
 			<Route path='/StudentDisplayQuestion' component={StudentDisplayQuestion}/>

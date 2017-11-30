@@ -17,18 +17,146 @@ h1, h2, h3, h4, h5, h6, p{
 #teacherToolBar{
 	height: 10%;
 	width: 100%;
+	background-color: rgb(102, 205, 170);
 }
 
 #teacherLogo{
 	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-size: 36px;
     font-variant: small-caps;
     display: inline-block;
+    padding: 10px 0px 10px 50px;
+}
+
+#addQuestion{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: white;
+	color: rgb(102, 205, 170);
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 5px;
+	margin-left: 60%;
 }
 
 #cancelAndReturn{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: white;
+	color: rgb(102, 205, 170);
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 5px;
+	margin-left: 3%;
 }
 
 #teacherLogout{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: white;
+	color: rgb(102, 205, 170);
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 5px;
+	margin-left: 3%;
+}
+
+#teacherMainContainer{
+	height: 90%;
+	width: 100%;
+}
+
+#teacherQuestionContainer{
+	height: auto;
+	width: 100%;
+}
+
+#teacherQuestion{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 42px;
+	padding: 45px 0px 45px 50px;
+	width: 70%;
+	display: inline-block;
+	float: left;
+}
+
+#timerAndNext{
+	height: auto;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+#timeRemaining{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	margin-top: 45px;
+}
+
+#endQuestion{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	background-color: rgb(102, 205, 170);
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#firstAnswer{
+	float: left;
+	text-align: center;
+	height: 200px;
+	width: 35%;
+	margin-left: 12.5%;
+	background-color: rgb(178, 34, 34);
+	border: 5px solid black;
+
+}
+
+#secondAnswer{
+	float: left;
+	text-align: center;
+	height: 200px;
+	width: 35%;
+	margin-left: 5%;
+	background-color: rgb(255, 140, 0);
+	border: 5px dashed black;
+
+}
+
+#thirdAnswer{
+	float: left;
+	text-align: center;
+	height: 200px;
+	width: 35%;
+	margin-left: 12.5%;
+	background-color: rgb(138, 43, 226);
+	border: 5px double black;
+	margin-top: 30px;
+}
+
+#fourthAnswer{
+	float: left;
+	text-align: center;
+	height: 200px;
+	width: 35%;
+	margin-left: 5%;
+	background-color: rgb(34, 139, 34);
+	border: 5px dotted black;
+	margin-top: 30px;
+}
+
+.answerHeader{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	height: auto;
+	color: white;
+}
+
+.answer{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	height: auto;
+	color: white;
 }
