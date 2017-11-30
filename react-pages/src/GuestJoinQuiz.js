@@ -7,6 +7,10 @@ class GuestJoinQuiz extends Component{
 		this.props.history.push("/");
 	}
 
+	join = () =>{
+		this.props.history.push("/StudentDisplayQuestion");
+	}
+
 	render(){
 		return(
 			<div id="allContainer">
@@ -20,7 +24,7 @@ class GuestJoinQuiz extends Component{
 					<input type="text" id="guestPINInput"/>
 					<p id="guestNicknameHeader">Enter your nickname:</p>
 					<input type="text" id="guestNameInput"/><br />
-					<button id="enterQuiz">Join Quiz</button>
+					<button id="enterQuiz" onClick={this.join}>Join Quiz</button>
 				</div>
 			</div>
 			</div>

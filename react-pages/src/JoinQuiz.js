@@ -10,6 +10,10 @@ class JoinQuiz extends Component{
 		this.props.history.push("/Login");
 	}
 
+	join = () =>{
+		this.props.history.push("/StudentDisplayQuestion");
+	}
+
 	render(){
 		return(
 			<div id="allContainer">
@@ -21,7 +25,7 @@ class JoinQuiz extends Component{
 				<div id="joinMainContainer">
 					<p id="enterPINHeader">Enter the PIN for the quiz you wish to join:</p>
 					<input type="text" id="PINInput"/><br />
-					<button id="enterQuiz">Join Quiz</button>
+					<button id="enterQuiz" onClick={this.join}>Join Quiz</button>
 				</div>
 			</div>
 		);

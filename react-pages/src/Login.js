@@ -8,7 +8,7 @@ class Login extends Component{
 	}
 
 	guestLoginRedirect = () =>{
-		this.props.history.push("/GuestLogin");
+		this.props.history.push("/GuestJoinQuiz");
 	}
 
 	signupRedirect = () =>{
