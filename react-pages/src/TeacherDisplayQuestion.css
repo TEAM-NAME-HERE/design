@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6, p{
 #teacherQuestionContainer{
 	height: auto;
 	width: 100%;
+	text-align: center;
 }
 
 #teacherQuestion{
@@ -89,11 +90,13 @@ h1, h2, h3, h4, h5, h6, p{
 
 #timerContainer{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 28px;
+	font-size: 38px;
 	margin-top: 45px;
 	background-color: rgb(102, 205, 170);
 	border: 2px solid black;
 	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #endQuestion{
@@ -114,7 +117,7 @@ h1, h2, h3, h4, h5, h6, p{
 	margin-left: 12.5%;
 	background-color: rgb(178, 34, 34);
 	border: 5px solid black;
-
+	padding: 10px;
 }
 
 #secondAnswer{
@@ -125,7 +128,7 @@ h1, h2, h3, h4, h5, h6, p{
 	margin-left: 5%;
 	background-color: rgb(255, 140, 0);
 	border: 5px dashed black;
-
+	padding: 10px;
 }
 
 #thirdAnswer{
@@ -136,6 +139,7 @@ h1, h2, h3, h4, h5, h6, p{
 	margin-left: 12.5%;
 	background-color: rgb(138, 43, 226);
 	border: 5px double black;
+	padding: 10px;
 	margin-top: 30px;
 }
 
@@ -148,6 +152,7 @@ h1, h2, h3, h4, h5, h6, p{
 	background-color: rgb(34, 139, 34);
 	border: 5px dotted black;
 	margin-top: 30px;
+	padding: 10px;
 }
 
 .answerHeader{
