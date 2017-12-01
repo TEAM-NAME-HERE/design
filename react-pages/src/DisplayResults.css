@@ -13,3 +13,94 @@ h1, h2, h3, h4, h5, h6, p{
 	height: 100%;
 	width: 100%;
 }
+
+#displayToolbar{
+	height: 10%;
+	width: 100%;
+	background-color: rgb(102, 205, 170);
+
+}
+
+#displayLogo{
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-size: 36px;
+    font-variant: small-caps;
+    display: inline-block;
+    padding: 10px 0px 10px 50px;
+}
+
+#displayAddQuestion{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: white;
+	color: rgb(102, 205, 170);
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 5px;
+	margin-left: 60%;
+}
+
+#displayCancelQuiz{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: white;
+	color: rgb(102, 205, 170);
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 5px;
+	margin-left: 3%;
+}
+
+#displayLogout{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background-color: white;
+	color: rgb(102, 205, 170);
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 5px;
+	margin-left: 3%;
+}
+
+#displayMainContainer{
+	height: 90%;
+	width: 100%;
+}
+
+#displayNextQuestion{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	float: right;
+	margin-right: 8%;
+	margin-top: 5%;
+	background-color: rgb(102, 205, 170);
+	color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+#displayGap{
+	height: 5%;
+	width: 100%;
+}
+
+#podiumContainer{
+	height: 30%;
+	width: 65%;
+	margin-left: 10%;
+	background-color: white;
+	border: 3px solid black;
+	border-top: none;
+}
+
+#barContainer{
+	height: 60%;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 2%;
+	background-color: white;
+}
+
+.test{
+	height: auto;
+}

@@ -1,0 +1,53 @@
+#podiumReturn{
+	height: 100%;
+	width: 100%;
+}
+
+#firstOuter, #secondOuter, #thirdOuter{
+	height: 100%;
+	width: 30%;
+	text-align: center;
+	background-color: white;
+	float: left;
+	margin-left: 2%;
+	overflow: hidden;
+}
+
+#secondOuter{
+	margin-left: 3%;
+}
+
+.nameTag{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	height: auto;
+	margin-bottom: 5px;
+}
+
+#firstNameTag{
+	margin-top: 15px;
+}
+
+#secondNameTag{
+	margin-top: 45px;
+}
+
+#thirdNameTag{
+	margin-top: 90px;
+}
+
+.innerDiv{
+	height: 100%;
+	width: 80%;
+	background-color: rgba(102, 205, 170, 0.5);
+	margin: 0 auto;
+	border: 3px solid rgb(102, 205, 170);
+	border-bottom: none;
+	padding-top: 10px;
+}
+
+.scoreTag{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	height: auto;
+}
