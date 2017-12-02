@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Podium from './Podium'
+import Podium from './Podium';
+import Graph from './Graph';
 import './DisplayResults.css';
 
 class DisplayResults extends Component{
@@ -36,7 +37,7 @@ class DisplayResults extends Component{
 					</div>
 
 					<div id="barContainer">
-						<p class="test">bar</p>
+						<Graph></Graph>
 					</div>
 				</div>
 			</div>

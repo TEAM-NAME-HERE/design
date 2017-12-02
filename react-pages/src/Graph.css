@@ -1,0 +1,98 @@
+#graphReturn{
+	height: 100%;
+	width: 100%;
+}
+
+#actualGraph{
+	height: 80%;
+	width: 100%;
+	border-bottom: 5px solid black;
+	border-left: 3px solid black;
+}
+
+.barContainer{
+	width: 15%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+	overflow: hidden;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+}
+
+.barLabel{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: rgb(102, 205, 170);
+}
+
+#barOne{
+	border: 3px solid rgb(178, 34, 34);
+	background-color: rgba(178, 34, 34, 0.5);
+	width: 100%;
+}
+
+#barTwo{
+	border: 3px solid rgb(255, 140, 0);
+	background-color: rgba(255, 140, 0, 0.5);
+	width: 100%;
+}
+
+#barThree{
+	border: 3px solid rgb(138, 43, 226);
+	background-color: rgba(138, 43, 226, 0.5);
+	width: 100%;
+}
+
+#barFour{
+	border: 3px solid rgb(34, 139, 34);
+	background-color: rgba(34, 139, 34, 0.5);
+	width: 100%;
+}
+
+#graphLabels{
+	height: 20%;
+	width: 100%;
+}
+
+.labelContainer{
+	height: 100%;
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+}
+
+#firstLabel{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin-top: 15px;
+	color: rgb(178, 34, 34);
+}
+
+#secondLabel{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin-top: 15px;
+	color: rgb(255, 140, 0);
+}
+
+#thirdLabel{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin-top: 15px;
+	color: rgb(138, 43, 226);
+}
+
+#fourthLabel{
+	height: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin-top: 15px;
+	color: rgb(34, 139, 34);
+}

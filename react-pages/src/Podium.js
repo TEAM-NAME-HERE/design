@@ -13,6 +13,7 @@ class Podium extends Component{
 			thirdScore : 200
 		}
 	}
+	
 	render(){
 		return(
 			<div id="podiumReturn">
